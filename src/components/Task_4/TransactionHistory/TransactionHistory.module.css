@@ -1,0 +1,24 @@
+@import url('https://fonts.googleapis.com/css2?family=Overpass&display=swap');
+
+.transactionHistory {
+    min-width: 60%;
+    text-align: center;
+    border-collapse: collapse;
+    font-family: "Overpass", sans-serif;
+    border-top-right-radius: 30px;
+}
+
+.transactionHistory thead {
+    background: #00BCD5;
+    color: white;
+}
+
+.transactionHistory td, th {
+    border: 0.5px solid rgb(230, 230, 230);
+    padding: 15px;
+}
+
+.transactionHistory tr:nth-child(even) {
+    background: rgb(248, 248, 248);
+}
+

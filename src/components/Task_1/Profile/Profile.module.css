@@ -1,0 +1,81 @@
+@import url('https://fonts.googleapis.com/css2?family=Overpass&display=swap');
+
+.profile {
+    position: relative;
+    display: flex;
+    text-align: center;
+    flex-direction: column;
+    max-width: 240px;
+    line-height: 15px;
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 0px 5px 0px, rgba(0, 0, 0, 0.1) 0px 0px 1px 0px;
+    border-radius: 6px;
+    padding-top: 30px;
+    font-family: 'Overpass', sans-serif;
+}
+
+.avatar {
+    width: 80px;
+    height: 80px;
+    margin-bottom: 20px;
+    border-radius: 50px;
+}
+
+.name {
+    font-weight: bold;
+    font-size: 17px;
+}
+
+.tag {
+    color: rgb(122, 119, 119);
+    font-size: 13px;
+}
+
+.location {
+    color: rgb(122, 119, 119);
+    font-size: 13px;
+    margin-bottom: 40px;
+}
+
+.stats{
+    display: flex;
+    text-decoration: none;
+    list-style: none;
+    line-height: normal;
+    justify-content: space-between;
+    background: rgb(245, 245, 245);
+    margin: 0; 
+    width: 100.1%; 
+    height: 80px;
+    padding: 0;
+    position: relative;
+    border-radius: 0 0 6px 6px;
+    border-top: 1px solid rgb(196, 195, 195);
+}
+
+.stats li {
+    flex-direction: column;
+    width: 33%;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    border-right: 1px solid rgb(196, 195, 195);
+}
+
+.stats li:last-child {
+    border-right: none;
+}
+
+.stats li span {
+    display: block;
+}
+
+.label {
+    color: rgb(122, 119, 119);
+    font-size: 13px;
+}
+
+.quantity {
+    font-weight: bold;
+    font-size: 15px;
+}
+
