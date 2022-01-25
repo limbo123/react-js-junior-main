@@ -2,6 +2,7 @@ import React from "react";
 import PropTypes from 'prop-types';
 
 import styles from "./Profile.module.css";
+import defaultProfileImg from "../../../static/profile-default.jpg"
 
 const Profile = ({username, tag, location, avatar, stats}) => {
     return (
@@ -36,7 +37,7 @@ const Profile = ({username, tag, location, avatar, stats}) => {
 };
 
 Profile.defaultProps = {
-  avatar: "sorry, photo wasn't passed",
+  avatar: defaultProfileImg,
 }
 
 Profile.propTypes = {

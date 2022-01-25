@@ -2,6 +2,7 @@ import React from "react";
 import PropTypes from 'prop-types';
 
 import styles from "./FriendListItem.module.css"
+import defaultProfileImg from "../../../static/profile-default.jpg"
 
 const onlineStatusStyle = {
     online: {
@@ -24,7 +25,7 @@ const FriendListItem = ({ avatar, name, isOnline }) => {
 };
 
 FriendListItem.defaultProps = {
-    avatar: "sorry, photo wasn't passed",
+    avatar: defaultProfileImg,
 }
 
 FriendListItem.propTypes = {
